@@ -1,3 +1,8 @@
 .main {
-    display:
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.main__figure-uranus{
+    justify-self: end;
 }

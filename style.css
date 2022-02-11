@@ -20,14 +20,16 @@ html{
     height: 11rem;
     background-color: var(--blue);
     position: relative;
+    display: flex;
+    justify-content: center;
+}
+.header__figure{
+    position: absolute;  
 }
 .header__figure img{
     width: 12rem;
     height: 10rem;
     object-fit: cover;
-    position: absolute;
-    right: 10rem;
-    bottom: .5rem;
 }
 .header__nav{
     display: none;
