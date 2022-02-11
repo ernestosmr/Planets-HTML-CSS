@@ -5,6 +5,7 @@
 }
 html{
     font-size: 62.5%;
+    font-family: 'Open Sans', sans-serif;
 }
 :root{
     --red: #602722;
@@ -52,7 +53,7 @@ html{
     margin: 2rem auto;
 }
 .main figure figcaption{
-    font-size: 1.6rem;
+    font-size: 1.4rem;
 }
 .footer{
     width: 100vw;
@@ -64,5 +65,5 @@ html{
 }
 .footer p{
     color: var(--pink);
-    font-size: 1.4rem;
+    font-size: 1.2rem;
 }
