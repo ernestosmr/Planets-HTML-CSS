@@ -19,12 +19,8 @@ html{
     width: 100vw;
     height: 11rem;
     background-color: var(--blue);
-    position: relative;
     display: flex;
     justify-content: center;
-}
-.header__figure{
-    position: absolute;  
 }
 .header__figure img{
     width: 12rem;

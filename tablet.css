@@ -1,8 +1,39 @@
+.header{
+    justify-content: space-around;
+}
+.header__nav{
+    height: 100%;
+    display: initial;
+    flex-basis: 70%;
+    align-self: center;
+    text-align: center;
+}
+.header__nav ul a{
+    text-decoration:none;
+    color: white;
+    font-size: 1.6rem;
+}
+.header__nav ul{
+    height: 100%;
+    padding: 2.5rem;
+}
+.header__nav ul li{
+    display: inline-block;
+    margin: 0.5rem 1.5rem;
+}
+.header__nav ul li a{
+    font-size: 1.6rem;
+}
+.header__nav ul li a:hover{
+    font-weight: bold;
+}
+/* .nav__top{
+    margin-bottom: 1rem;
+} */
 .main {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-
 .main__figure-uranus{
     justify-self: end;
 }

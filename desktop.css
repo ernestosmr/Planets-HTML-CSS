@@ -1,4 +1,18 @@
+.header__nav ul{
+    padding: 2rem;
+}
+.header__nav ul li{
+    display: inline-block;
+    margin: 0.5rem 2.5rem;
+}
+.header__nav ul li a{
+    font-size: 2rem;
+}
 .main{
     display: grid;
     grid-template-columns: auto auto auto ;
+}
+.main figure figcaption{
+    font-size: 1.8rem;
+    flex-grow: 1;
 }
