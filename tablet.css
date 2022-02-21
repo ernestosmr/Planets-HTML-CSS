@@ -33,7 +33,16 @@
 .main {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    background-repeat: no-repeat;
+}
+.main figure{
+    margin:10px;
 }
 .main__figure-uranus{
     justify-self: end;
+}
+.main figure:last-child{
+    grid-column: 1 / 3;
+    width: 50%;
+    justify-self: center;
 }

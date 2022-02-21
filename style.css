@@ -32,16 +32,19 @@ html{
 }
 .main{
     padding: 1rem;
-    background: var(--red);
+    background-image: url(https://wallpaperaccess.com/full/3484327.jpg);
+    background-repeat: repeat;
+
 }
 .main figure{
     display: flex;
     flex-direction: column;
     margin: 2rem 0;
-    background: var(--pink);
+    background: var(--black);
     padding: 1rem;
-    border: .3rem solid var(--blue);
+    border: .3rem solid white;
     border-radius: 1rem;
+    color: white;
 }
 .main figure img{
     width: 16rem;

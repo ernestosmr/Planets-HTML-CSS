@@ -16,3 +16,8 @@
     font-size: 1.8rem;
     flex-grow: 1;
 }
+.main figure:last-child{
+    grid-column: 1 / 4;
+    max-width: 450px;
+    justify-self: center;
+}
