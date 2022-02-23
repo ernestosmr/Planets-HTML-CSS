@@ -41,7 +41,7 @@ html{
     width: 90%;
     max-width: 330px;
     margin: 2rem 0;
-    background: var(--black);
+    background: rgba(0, 0, 0, 0.70);
     padding: 1rem;
     border: .3rem solid white;
     border-radius: 1rem;
