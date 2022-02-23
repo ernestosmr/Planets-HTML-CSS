@@ -34,17 +34,20 @@ html{
     padding: 1rem;
     background-image: url(https://wallpaperaccess.com/full/3484327.jpg);
     background-repeat: repeat;
-
+    display:grid;
+    justify-items:center;
 }
 .main figure{
-    display: flex;
-    flex-direction: column;
+    width: 90%;
+    max-width: 330px;
     margin: 2rem 0;
     background: var(--black);
     padding: 1rem;
     border: .3rem solid white;
     border-radius: 1rem;
     color: white;
+    display: flex;
+    flex-direction: column; 
 }
 .main figure img{
     width: 16rem;
