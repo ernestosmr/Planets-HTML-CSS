@@ -11,6 +11,10 @@
     text-decoration:none;
     color: white;
 }
+.header__nav ul a:hover{
+    display: inline-block;
+    transform: scale(1.2);
+}
 .header__nav ul{
     height: 100%;
     padding: 2rem;

@@ -1,4 +1,11 @@
-
+.header__figure img:hover{
+    transform: translate(-50%);
+    transition-duration: 500ms;
+    transition-timing-function: ease-in;
+}
+.header__figure img{
+    transition-duration: 500ms;
+}
 .header__nav ul{
     padding: 1.5rem;    
 }
@@ -7,17 +14,23 @@
     margin: 0.6rem 0.5rem;
     margin-right: 4.6rem;
 }
-
 .main{
     display: grid;
     grid-template-columns: auto auto auto ;
+}
+.main figure{
+    transition-duration: 1s;
+}
+.main figure:hover{
+    transform: translate(20px);
+    transition-duration: 1s;
 }
 .main figure figcaption{
     font-size: 1.8rem;
     flex-grow: 1;
 }
 .main figure:last-child{
-    grid-column: 1 / 4;
-    max-width: 450px;
+    grid-column: 2 / 3;
+    width: 100%;
     justify-self: center;
 }
